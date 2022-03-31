@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/icons/address-icon.tsx", "components/icons/arrow-right-icon.tsx", "components/icons/date-icon.js"],
   "exclude": ["node_modules"]
 }
