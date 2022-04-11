@@ -1,14 +1,14 @@
-import { Fragment, ReactChild, ReactChildren } from "react";
-import Header from "./Header";
+import { Fragment, ReactNode } from "react";
+import AppHeader from "./Header";
 
 interface LayoutProps {
-  children: ReactChild | ReactChildren;
+  children: ReactNode;
 }
 
 function Layout(props: LayoutProps) {
   return(
     <Fragment>
-      <Header />
+      <AppHeader />
       <main>
         {props.children}
       </main>

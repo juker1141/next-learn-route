@@ -1,8 +1,8 @@
-import { ReactChild, ReactChildren } from "react";
+import { ReactNode } from "react";
 import classes from './EventContent.module.css';
 
 interface EventContentProps {
-  children: ReactChild | ReactChildren;
+  children: ReactNode;
 };
 
 function EventContent(props: EventContentProps) {
